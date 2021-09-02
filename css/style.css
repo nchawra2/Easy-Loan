@@ -12,7 +12,7 @@ html {
 
 body {
   letter-spacing: 0.15rem;
-  line-height: 1.6;
+  line-height: 1.4;
   font-family: "Kaisei HarunoUmi", serif;
 }
 
@@ -21,11 +21,32 @@ body {
   margin: 0 auto;
 }
 
+.btn {
+  padding: 1.2rem 2.4rem;
+  text-align: center;
+}
+
+.btn-cta {
+  background-color: #10c98f;
+}
+
+.new-color {
+  background-color: #26be9f;
+}
+
+.fixed {
+  position: sticky;
+  top: 0;
+}
+
 /* -------------- HEADER SECTION ------------------------- */
 
 .navigation {
-  background-color: #26be9f;
-  /* padding: 1rem 0; */
+  transition: all .7s;
+}
+
+.hero {
+  background-color: #4cbdb5;
 }
 
 nav {
@@ -71,20 +92,15 @@ nav ul li a {
   font-weight: 600;
 }
 
-.btn {
-  padding: 1.2rem 2.4rem;
-  text-align: center;
-}
-
-.btn-cta {
-  background-color: #10c98f;
-}
-
 nav ul li {
   color: white;
   font-weight: 600;
   font-size: 1.5rem;
   position: relative;
+}
+
+nav ul li:hover {
+  cursor: pointer;
 }
 
 .dropdown {
@@ -98,7 +114,7 @@ nav ul li {
   left: 0;
   width: 20rem;
   margin-top: 2rem;
-  background-color: whitesmoke;
+  background-color: #fff;
 }
 
 .dropdown-content {
@@ -115,4 +131,48 @@ nav ul li {
 .dropdown-content a:hover {
   color: #26be9f;
   transform: translateX(7px);
+}
+
+.hero-content {
+  height: 100vh;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.content-1 {
+  margin-right: 50rem;
+  color: #fff;
+  /* background-color: red; */
+}
+
+.content-1 h1 {
+  font-size: 5rem;
+  font-weight: bolder;
+}
+
+.content-1 p {
+  font-size: 2.4rem;
+  margin-top: 1rem;
+  margin-bottom: 4rem;
+}
+
+.btn-services {
+  color: white;
+  text-decoration: none;
+  font-size: 1.7rem;
+  border: 1px solid white;
+  text-transform: uppercase;
+  font-weight: 600;
+  transition: all 0.3s;
+}
+
+.btn-services:hover {
+  background-color: #00f6a9;
+  border: 0;
+  color: white;
+}
+
+.hidden {
+  display: none;
 }
