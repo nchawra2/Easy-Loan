@@ -17,6 +17,85 @@ body {
 }
 
 .container {
-  max-width: 1100px;
+  max-width: 1200px;
   margin: 0 auto;
+}
+
+/* -------------- HEADER SECTION ------------------------- */
+
+.navigation {
+  background-color: #26be9f;
+}
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  /* padding: 1rem 0; */
+}
+
+.logo {
+  font-size: 3rem;
+  font-weight: 700;
+  display: flex;
+  align-items: center;
+}
+
+.logo p {
+  color: white;
+}
+
+.ph-house-line-fill {
+  margin-right: 1rem;
+  color: #00f6a9;
+  font-size: 3.5rem;
+}
+
+nav a {
+  color: white;
+  text-decoration: none;
+  font-size: 1.5rem;
+}
+
+nav ul {
+  list-style: none;
+  display: flex;
+  margin-left: 32rem;
+}
+
+nav ul li a {
+  padding: 1rem 2rem;
+  font-weight: 600;
+}
+
+.btn {
+  padding: 1.2rem 2.4rem;
+  text-align: center;
+}
+
+.btn-cta {
+  background-color: #10c98f;
+}
+
+.dropdown {
+  position: relative;
+  /* background-color: white; */
+}
+
+.dropdown:hover .dropdown-content {
+  display: flex;
+}
+
+.dropdown-content {
+  position: absolute;
+  background-color: whitesmoke;
+  width: 15rem;
+  top: 3.6rem;
+  /* left: 0; */
+  flex-direction: column;
+  display: none;
+}
+
+.dropdown-content a {
+  color: black;
 }
