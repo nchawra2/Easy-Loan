@@ -141,12 +141,10 @@ nav ul li:hover {
 .hero-content {
   height: 91vh;
   display: flex;
-  justify-content: space-around;
   align-items: center;
 }
 
 .content-1 {
-  margin-right: 50rem;
   color: #fff;
   /* background-color: red; */
 }
@@ -416,7 +414,7 @@ nav ul li:hover {
 }
 
 .footer {
-  background-color: #F4FCFA;
+  background-color: #f4fcfa;
   padding: 8rem 0 8rem 0;
 }
 

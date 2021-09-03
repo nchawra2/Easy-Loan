@@ -1,0 +1,113 @@
+@media (max-width: 500px) {
+  .footer-grid {
+    grid-template-columns: 1fr;
+    gap: 3rem;
+  }
+
+  .footer {
+    padding: 8rem 2rem 3rem 2rem;
+  }
+
+  .grids {
+    border-bottom: 1px solid gray;
+    padding-bottom: 1rem;
+  }
+
+  .choose-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .g-item {
+    margin-bottom: 1rem;
+  }
+
+  .choosing-heading::before {
+    left: 18rem;
+  }
+  .choosing-sub-heading {
+    font-size: 1.4rem;
+  }
+
+  .solution-heading {
+    font-size: 2.1rem;
+  }
+
+  .solution-heading::before {
+    left: 18rem;
+  }
+
+  .solution-sub-heading {
+    font-size: 1.4rem;
+  }
+
+  .solutions-flex {
+    flex-direction: column;
+    gap: 7rem;
+    padding: 0 2rem;
+  }
+
+  nav {
+    flex-direction: column;
+  }
+
+  nav ul {
+    margin-left: 0;
+  }
+
+  nav ul li {
+    font-size: 1.2rem;
+  }
+
+  nav a {
+    font-size: 1.2rem;
+  }
+
+  .navigation {
+    padding: 1rem 0;
+  }
+
+  .content-1 h1 {
+    font-size: 3.5rem;
+  }
+
+  .content-1 p {
+    font-size: 2rem;
+  }
+
+  .hero-content {
+    padding: 0 1rem;
+  }
+
+  .sol {
+    flex-direction: column;
+    padding: 2.2rem;
+    gap: 10rem;
+  }
+
+  .col-2 h2 {
+    font-size: 2.4rem;
+  }
+  .col-2 ul {
+    margin-bottom: 5rem;
+    margin-top: 2rem;
+  }
+
+  .col-2 ul li {
+    font-size: 1.4rem;
+    margin-bottom: 0.7rem;
+  }
+
+  .sol-btn {
+    font-size: 1rem;
+    padding: 1.25rem 3.25rem;
+  }
+
+  .sol-img {
+    height: 100%;
+    width: 100%;
+  }
+
+  .sol-img-overlay {
+    display: none;
+  }
+}
