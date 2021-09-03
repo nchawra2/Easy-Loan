@@ -39,6 +39,7 @@ body {
   position: fixed;
   width: 100%;
   top: 0;
+  z-index: 100;
 }
 
 /* -------------- HEADER SECTION ------------------------- */
@@ -196,6 +197,7 @@ nav ul li:hover {
   text-align: center;
   position: relative;
   padding: 2rem;
+  color: #0f4332;
 }
 
 .solution-heading::before {
@@ -256,8 +258,9 @@ nav ul li:hover {
   display: flex;
   justify-content: space-between;
   padding: 10rem;
-  background-color: #E4F1ED;
+  background-color: #e4f1ed;
   gap: 25rem;
+  align-items: center;
 }
 
 .col-1 {
@@ -291,7 +294,7 @@ nav ul li:hover {
 
 .sol-img-overlay h5 {
   font-size: 1.25rem;
-  margin-top: .5rem;
+  margin-top: 0.5rem;
 }
 
 .sol-btn {
@@ -306,10 +309,167 @@ nav ul li:hover {
 
 .col-2 ul {
   margin-bottom: 5rem;
+  margin-top: 3rem;
+  margin-left: 2rem;
+  /* color:rgba(0, 0, 0, 0.5) */
+}
+
+.col-2 h2 {
+  font-size: 3.5rem;
+  color: #0f4332;
+  margin-bottom: 2rem;
+}
+
+.col-2 p {
+  font-size: 1.4rem;
+  color: #6d6d6d;
+  border-bottom: 2px solid gray;
+  padding-bottom: 2rem;
 }
 
 .sol-btn:hover {
   background-color: #10c98f;
   border: 0;
   color: white;
+}
+
+.col-2 ul li {
+  font-size: 1.8rem;
+  margin-bottom: 1rem;
+}
+
+/*------------------- WHY CHOOSE US -------------------------  */
+.choosing {
+  padding: 5rem 0 0 0;
+  background-color: #f4fcfa;
+}
+
+.choosing p {
+  color: #6d6d6d;
+}
+
+.choosing-heading {
+  font-size: 3.8rem;
+  font-weight: 600;
+  text-align: center;
+  position: relative;
+  padding: 2rem;
+  color: #0f4332;
+}
+
+.choosing-heading::before {
+  content: "";
+  position: absolute;
+  left: 70rem;
+  bottom: 0;
+  height: 0.35rem;
+  width: 12rem;
+  background-color: #26be9f;
+}
+
+.choosing-sub-heading {
+  margin-top: 2rem;
+  font-size: 1.7rem;
+  text-align: center;
+}
+
+.choose-grid {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 2rem;
+  padding: 8rem;
+}
+
+.g-item {
+  text-align: center;
+}
+
+.icon-container {
+  background-color: #fff;
+  border-radius: 50%;
+  height: 100px;
+  width: 100px;
+  margin-left: 115px;
+  padding: 1rem;
+}
+
+.g-item i {
+  font-size: 7rem;
+  color: #10c98f;
+}
+
+.g-item h3 {
+  font-size: 2.7rem;
+  color: #0f4332;
+  margin-top: 2rem;
+  transition: all 0.3s;
+}
+
+.g-item:hover h3 {
+  color: #10c98f;
+}
+
+.g-item p {
+  font-size: 1.5rem;
+  color: #4c5753;
+  margin-top: 1.2rem;
+}
+
+.footer {
+  background-color: #F4FCFA;
+  padding: 8rem 0 8rem 0;
+}
+
+.footer-grid {
+  display: grid;
+  grid-template-columns: 2fr repeat(2, 1fr) 2fr;
+  gap: 8rem;
+}
+
+.grids p {
+  margin-top: 3rem;
+  font-size: 1.5rem;
+  text-align: justify;
+  color: #4c5753;
+}
+
+.grids h4 {
+  font-size: 2rem;
+  color: #0f4332;
+}
+
+.grids ul {
+  list-style: none;
+}
+
+.grids ul li {
+  margin-top: 2rem;
+  font-size: 1.5rem;
+}
+
+.grids ul li a {
+  text-decoration: none;
+  color: #4c5753;
+  transition: all 0.3s;
+}
+
+.grids ul li a:hover {
+  color: #10c98f;
+  text-decoration: underline;
+}
+
+.find-at {
+  margin-top: 2rem;
+  display: flex;
+  gap: 1.8rem;
+}
+
+.find-at i {
+  font-size: 2.5rem;
+  transition: all 0.8s;
+}
+
+.find-at i:hover {
+  transform: rotateY(180deg);
+  color: #10c98f;
 }
