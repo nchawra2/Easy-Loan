@@ -22,7 +22,7 @@
   }
 
   .choosing-heading::before {
-    left: 18rem;
+    display: none;
   }
   .choosing-sub-heading {
     font-size: 1.4rem;
@@ -33,7 +33,7 @@
   }
 
   .solution-heading::before {
-    left: 18rem;
+    display: none;
   }
 
   .solution-sub-heading {
@@ -109,5 +109,11 @@
 
   .sol-img-overlay {
     display: none;
+  }
+}
+
+@media (max-width: 400px) {
+  nav ul li {
+    padding: 1.2rem 1.2rem;
   }
 }

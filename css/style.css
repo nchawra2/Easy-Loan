@@ -382,18 +382,12 @@ nav ul li:hover {
   text-align: center;
 }
 
-.icon-container {
-  background-color: #fff;
-  border-radius: 50%;
-  height: 100px;
-  width: 100px;
-  margin-left: 115px;
-  padding: 1rem;
-}
-
 .g-item i {
   font-size: 7rem;
   color: #10c98f;
+  background-color: #fff;
+  padding: 1rem;
+  border-radius: 50%;
 }
 
 .g-item h3 {
